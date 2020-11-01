@@ -1,0 +1,46 @@
+{
+  "name": "kintone-customization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:prod": "webpack --mode production",
+    "build:dev": "webpack --devtool eval-source-map --output-pathinfo -w"
+  },
+  "keywords": [],
+  "repository": {},
+  "author": "",
+  "license": "MIT",
+  "description": "This is my kintone customization template.",
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.1",
+    "@babel/preset-typescript": "7.12.1",
+    "@cybozu/eslint-config": "11.0.1",
+    "babel-loader": "8.1.0",
+    "css-loader": "5.0.0",
+    "eslint": "7.12.1",
+    "eslint-loader": "4.0.2",
+    "node-sass": "5.0.0",
+    "prettier": "2.1.2",
+    "sass-loader": "10.0.4",
+    "style-loader": "2.0.0",
+    "typescript": "4.0.5",
+    "url-loader": "4.1.1",
+    "webpack": "5.3.2",
+    "webpack-cli": "4.1.0"
+  },
+  "dependencies": {
+    "@kintone/kintone-ui-component": "0.7.4",
+    "@kintone/rest-api-client": "1.7.1",
+    "core-js": "3.6.5",
+    "cross-env": "7.0.2",
+    "jquery": "3.5.1",
+    "luxon": "1.25.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "regenerator-runtime": "0.13.7",
+    "sweetalert2": "10.9.0"
+  }
+}
